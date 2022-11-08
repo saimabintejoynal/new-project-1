@@ -1,0 +1,223 @@
+/*common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' sans-serif;
+
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+
+}
+.container{
+    width:1200px;
+    margin:auto;
+    align-items: center;
+    color: #566366;
+
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*common css end*/
+/*nav section css start*/
+
+nav{
+    background: #252d2f;
+
+}
+nav .container .logo{
+    width:20%;
+
+}
+nav .container .menu{
+    width:80%;
+
+
+}
+nav .container .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  
+}
+nav .container .menu ul li{
+    display: inline-block;
+    padding: 30px 25px;
+
+}
+nav .container .menu ul a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'roboto' sans-serif;
+    text-transform: uppercase;
+
+
+}
+nav .container .menu ul li:hover a{
+    color: #2ecc71;
+}
+/*nav section css End*/
+
+/*banner section css start*/
+#banner{
+    background: url(../image/banner_bg.jpg);
+    height: 1000px;
+    background-size:right cover;
+    background-position: right center;
+
+}
+#banner .container{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+#banner .container .banner_item h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    border-top:2px solid white ;
+    border-bottom: 2px solid white ;
+}
+#banner .container .banner_item a{
+    color: #fff;
+    font-size:18px;
+    font-weight: 700;
+    border: 1px 1px #fff;   
+    border:2px solid white ;
+    margin-top: 48px;
+    text-align: center;
+     
+}
+
+/*banner section css end*/
+/*about section css start*/
+#about .row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#about .about_item{ 
+    display: inline-block;   
+    width:355px;
+    padding-left: 50px;
+    margin:96px 0;
+    
+}
+#about .about_item h3{
+    font-size: 30px;
+    font-weight:700;
+    text-transform: uppercase;
+    
+    
+}
+#about .about_item p{
+    font-size: 18px;
+    font-weight:400;
+
+}
+
+
+/*about section css end*/
+
+/*about me section css start*/
+
+#myself{
+    width:1600px;
+    height: 755px;
+}
+#myself .bg {
+    background-size:cover;
+    background-position:left ;
+    width:598px;
+    display: inline-block;
+
+
+}
+
+/*
+#myself .bg:hover img{
+    background: url(../image/banner-3.jpg);
+    height: 100%;
+
+}*/
+
+#myself .row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#myself .row .about_me{
+    background: url(../image/about_bg.jpg);
+    display: inline-block;
+    width: 990px;
+    height: 755px;
+    padding:90px;
+}
+#myself .row .about_me h3{
+    font-size: 30px;
+    font-weight:700;
+    text-transform: uppercase;
+    width:600px;
+
+}
+#myself .row .about_me p{
+    padding: 50px 0;
+    font-size: 18px;
+    font-weight:400;
+    width:600px;
+     
+
+}
+
+#myself .row .about_item h4{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+#myself .row .about_item p{
+   
+   width:280px;
+   padding-right: 35px;
+   padding-top: 20px;
+}
+#myself .about_me .about_item .icon{
+    width:50%;
+    width:280px;
+
+}
+/*
+#myself .about_me .about_item .row img{
+    display: inline-block;
+
+}
+#myself .about_me .about_item .row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#myself .about_me .about_item .row .aa{
+    display: inline-block;
+    width:300px;
+
+}
+
+
+
+/*about me section css end
+    background: url(../image/banner-2.jpg);
+
+*/
+
+
